@@ -1,0 +1,6 @@
+.............................Machine learning models for drug discovery based on activity on human alpha-Glucosidase..............................................
+
+Machine learning models which are trained on PubChem datasets `AID 2100` and `AID 2242` to obtain drug candidates (activators and inhibitors of alpha glucosidase) for Type II diabetes and Pompe's disease.
+`AID 2100` and `AID 2242` are PubChem datasets for inhibitors and activators of Human Alpha-glucosidase enzyme respectively. 
+
+Mold2 was used to compute 777 molecular descriptors of the compounds obtained from PubChem. These molecular descriptors were used to train different ML algorithms to predict whether a given compound is an activator/inhibitor of Alpha-glucosidase.
